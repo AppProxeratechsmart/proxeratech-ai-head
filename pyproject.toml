@@ -1,0 +1,24 @@
+tool.poetry]
+name = "proxeratech-head"
+version = "0.1.0"
+description = "Proxeratech Smart AI Head - FastAPI scaffold"
+authors = ["Proxeratech"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.95.2"
+uvicorn = {extras = ["standard"], version = "^0.22.0"}
+pydantic = "^1.10.11"
+psycopg2-binary = "^2.9.7"
+aioredis = "^2.0.1"
+python-jose = "^3.3.0"
+passlib = "^1.7.4"
+httpx = "^0.24.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.3.1"
+pytest-asyncio = "^0.21.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
