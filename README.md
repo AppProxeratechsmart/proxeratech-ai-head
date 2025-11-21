@@ -1,14 +1,20 @@
 # Proxeratech AI HEAD
 
 Toto je centrální mozek celého systému Proxeratech Smart.
+
 Zde budeme vyvíjet:
 
 - AI orchestraci
 - AI bezpečnost
 - Edge synchronizaci
-- Predikce
+- Predikce a forecasting
 - Robotické řízení
 - Self-healing engine
 - API pro Boost Smart moduly
 
-Projekt poběží na Python + FastAPI + Poetry.
+Tech stack:
+- Python 3.11
+- FastAPI
+- Poetry
+- PostgreSQL
+- Redis
